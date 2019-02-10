@@ -5,6 +5,7 @@ var app = express();
 var messages = [];
 var id = 1;
 
+
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
